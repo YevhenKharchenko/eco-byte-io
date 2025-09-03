@@ -1,16 +1,17 @@
 .header {
   backdrop-filter: blur(54.20000076293945px);
-  background: rgba(46, 46, 46, 0.4);
-  padding-top: 15px;
-  padding-bottom: 16px;
+  background: rgba(46, 204, 113, 0.04);
+  padding-top: 2px;
+  padding-bottom: 2px;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 10;
 
   @include media(desktop) {
-    background: linear-gradient(180deg, #0b132b 0%, #000 100%);
-    padding-top: 26px;
+    backdrop-filter: none;
+    background: transparent;
+    padding-top: 18px;
     padding-bottom: 0;
   }
 }
@@ -20,11 +21,6 @@
 
 .header-bg-wrapper {
   @include media(desktop) {
-    padding-top: 14px;
-    background-image: url(../img/hero/hero-bg-desk.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: auto;
   }
 }
 
@@ -34,14 +30,48 @@
   justify-content: space-between;
 
   @include media(desktop) {
-    justify-content: start;
-    gap: 54px;
+    backdrop-filter: blur(54.20000076293945px);
+    background: rgba(46, 204, 113, 0.04);
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 }
 
 .header-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50px;
+
   @include media(desktop) {
-    margin-left: 24px;
+    min-width: 98px;
+  }
+}
+
+.header-logo-top-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  text-align: center;
+  color: #4a6a10;
+  margin-right: auto;
+
+  @include media(desktop) {
+    font-size: 36px;
+  }
+}
+
+.header-logo-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  color: #1e1e1e;
+  margin-left: auto;
+  margin-top: -7px;
+
+  @include media(desktop) {
+    font-size: 20px;
   }
 }
 
@@ -50,10 +80,12 @@
 
   @include media(desktop) {
     width: 100%;
-    max-width: 978px;
+    max-width: 1063px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 20px 67px;
   }
 }
 
@@ -65,17 +97,17 @@
   font-weight: 600;
   font-size: 20px;
   text-align: center;
-  color: #f1f5f9;
+  color: #2d3436;
   transition: all 0.3s ease-in-out;
 
   &:hover,
   &.active {
-    color: #0ecbaf;
+    color: #4a6a10;
   }
 }
 
 .nav-list-link.active {
-  color: #0ecbaf;
+  color: #4a6a10;
 }
 
 .nav-btn {
