@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoByteIO – Carbon Tracking SaaS for European Companies</title>
+    <meta
+      name="description"
+      content="EcoByteIO LLC provides automated carbon tracking and ESG reporting for businesses. Monitor emissions, run simulations, and comply with EU sustainability standards."
+    />
+    <meta
+      name="keywords"
+      content="carbon tracking, ESG reporting, EU taxonomy, CSRD compliance, sustainability software, emission monitoring, carbon dashboard, corporate sustainability"
+    />
+    <meta name="author" content="EcoByteIO Team" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://ecobyteio.pro" />
+    <link rel="icon" type="image/png" href="/eco-byte-io/favicon.png" />
+    
+    <script type="module" crossorigin src="/eco-byte-io/commonHelpers3.js"></script>
+    <link rel="stylesheet" href="/eco-byte-io/assets/styles-ba0152ab.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <div class="header-bg-wrapper">
+      <nav class="nav">
+        <a class="header-logo-link" href="./">
+          <picture>
+            <source
+              srcset="/eco-byte-io/assets/header-logo-desk-be0995ee.png "
+              media="(min-width: 1440px)"
+              width="98"
+              height="59"
+            />
+            <source
+              srcset="data:image/png;base64,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 "
+              width="70"
+              height="50"
+            />
+            <img
+              class="header-logo-img"
+              src="data:image/png;base64,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"
+              alt="Logo"
+              width="70"
+              height="50"
+            />
+          </picture>
+        </a>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#home"
+              >About EcoByteIO</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#features"
+              >Platform Features</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#works">How It Works</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#dashboard"
+              >Analytics Dashboard</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#studies"
+              >Case Studies</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#pricing"
+              >Plans & Pricing</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#faq">FAQ</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <button class="nav-btn" type="button" aria-label="Open mobile menu">
+          <svg class="menu-icon" width="28" height="18">
+            <use href="/eco-byte-io/assets/sprite-3c7e3546.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <button class="close-btn" type="button" aria-label="Close mobile menu">
+    <svg class="close-icon" width="32" height="32">
+      <use href="/eco-byte-io/assets/sprite-3c7e3546.svg#icon-close"></use>
+    </svg>
+  </button>
+  <nav class="context-nav">
+    <ul class="context-nav-list">
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#home"
+          >About EcoByteIO</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#features"
+          >Platform Features</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#works">How It Works</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#dashboard"
+          >Analytics Dashboard</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#studies"
+          >Case Studies</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#pricing"
+          >Plans & Pricing</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#faq">FAQ</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#contact">Contact</a>
+      </li>
+    </ul>
+    <ul class="context-privacy-list">
+      <li class="context-privacy-item">
+        <a class="context-privacy-link" href="./terms-and-conditions.html"
+          >Terms of Service</a
+        >
+      </li>
+      <li class="context-privacy-item">
+        <a class="context-privacy-link" href="./privacy-policy.html"
+          >Privacy Policy</a
+        >
+      </li>
+      <li class="context-privacy-item">
+        <a class="context-privacy-link" href="./cookies-policy.html"
+          >Cookies Policy</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-wrapper">
+    <div class="container hero-container">
+      <h1 class="hero-title">
+        Turning carbon data into<br />
+        climate action
+      </h1>
+      <p class="hero-top-text">
+        EcoByteIO helps organizations transform their sustainability goals into
+        measurable results.
+      </p>
+      <p class="hero-bottom-text">
+        Our software automates the collection of data from logistics, energy
+        use, procurement, and more — providing a real-time view of emissions.
+      </p>
+    </div>
+  </div>
+</section>
+
+      <section class="section features-section" id="features">
+  <div class="container features-container">
+    <h2 class="section-title features-title">Platform Features</h2>
+    <p class="section-subtitle features-subtitle">One tool, many solutions</p>
+    <ul class="features-list">
+      <li class="features-list-item">
+        <div class="features-title-wrapper">
+          <h3 class="features-item-title">Automated Data Collection</h3>
+        </div>
+        <p class="features-item-text">
+          connect energy bills, fleet data, supplier reports
+        </p>
+      </li>
+      <li class="features-list-item">
+        <div class="features-title-wrapper">
+          <h3 class="features-item-title">AI-Based Carbon Calculation</h3>
+        </div>
+        <p class="features-item-text">global standards, instantly applied</p>
+      </li>
+      <li class="features-list-item">
+        <div class="features-title-wrapper">
+          <h3 class="features-item-title">Scenario Simulation</h3>
+        </div>
+        <p class="features-item-text">
+          test how changes (e.g., switching transport modes) affect emissions
+        </p>
+      </li>
+      <li class="features-list-item">
+        <div class="features-title-wrapper">
+          <h3 class="features-item-title">Compliance Ready</h3>
+        </div>
+        <p class="features-item-text">ESG, EU taxonomy, CSRD compatibility</p>
+      </li>
+      <li class="features-list-item">
+        <div class="features-title-wrapper">
+          <h3 class="features-item-title">Custom Reporting</h3>
+        </div>
+        <p class="features-item-text">investor-ready exports in PDF/Excel</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section works-section" id="works">
+  <div class="works-top-wrapper">
+    <div class="container works-container">
+      <h2 class="section-title works-title">How It Works</h2>
+      <p class="section-subtitle works-subtitle">
+        From raw data to climate insight
+      </p>
+    </div>
+  </div>
+  <div class="works-bottom-wrapper">
+    <div class="container works-container">
+      <ul class="works-list">
+        <li class="works-list-item">
+          <p class="works-item-number">1</p>
+          <p class="works-item-text">
+            Connect company data sources (API, spreadsheets, invoices)
+          </p>
+        </li>
+        <li class="works-list-item">
+          <p class="works-item-number">2</p>
+          <p class="works-item-text">
+            Platform calculates carbon emissions per category
+          </p>
+        </li>
+        <li class="works-list-item">
+          <p class="works-item-number">3</p>
+          <p class="works-item-text">
+            Visual dashboard highlights key hotspots
+          </p>
+        </li>
+        <li class="works-list-item">
+          <p class="works-item-number">4</p>
+          <p class="works-item-text">
+            Generate compliance or investor reports with 1 click
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section dashboard-section" id="dashboard">
+  <div class="container dashboard-container">
+    <h2 class="section-title dashboard-title">Analytics Dashboard</h2>
+    <p class="section-subtitle dashboard-subtitle">
+      See your footprint at a glance
+    </p>
+    <ul class="dashboard-list">
+      <li class="dashboard-list-item">
+        <picture>
+          <source
+            srcset="/eco-byte-io/assets/dashboard-img1-desk-b0d64130.png "
+            media="(min-width: 1440px)"
+            width="628"
+            height="390"
+          />
+          <source
+            srcset="/eco-byte-io/assets/dashboard-img1-mob-630d8648.png "
+            width="311"
+            height="193"
+          />
+          <img
+            class="dashboard-img"
+            src="/eco-byte-io/assets/dashboard-img1-mob-630d8648.png"
+            alt="Dashboard"
+            width="311"
+            height="193"
+            loading="lazy"
+          />
+        </picture>
+        <div class="dashboard-text-wrapper">
+          <p class="dashboard-item-text">
+            Emissions by category (transport, energy, suppliers)
+          </p>
+        </div>
+      </li>
+      <li class="dashboard-list-item">
+        <picture>
+          <source
+            srcset="/eco-byte-io/assets/dashboard-img2-desk-a7f7f343.png "
+            media="(min-width: 1440px)"
+            width="628"
+            height="390"
+          />
+          <source
+            srcset="/eco-byte-io/assets/dashboard-img2-mob-2892b784.png "
+            width="311"
+            height="193"
+          />
+          <img
+            class="dashboard-img"
+            src="/eco-byte-io/assets/dashboard-img2-mob-2892b784.png"
+            alt="Dashboard"
+            width="311"
+            height="193"
+            loading="lazy"
+          />
+        </picture>
+        <div class="dashboard-text-wrapper">
+          <p class="dashboard-item-text">Month-over-month reduction progress</p>
+        </div>
+      </li>
+      <li class="dashboard-list-item">
+        <picture>
+          <source
+            srcset="/eco-byte-io/assets/dashboard-img3-desk-e3c17efd.png "
+            media="(min-width: 1440px)"
+            width="628"
+            height="390"
+          />
+          <source
+            srcset="/eco-byte-io/assets/dashboard-img3-mob-d74e7c91.png "
+            width="311"
+            height="193"
+          />
+          <img
+            class="dashboard-img"
+            src="/eco-byte-io/assets/dashboard-img3-mob-d74e7c91.png"
+            alt="Dashboard"
+            width="311"
+            height="193"
+            loading="lazy"
+          />
+        </picture>
+        <div class="dashboard-text-wrapper">
+          <p class="dashboard-item-text">Benchmarks against industry average</p>
+        </div>
+      </li>
+      <li class="dashboard-list-item">
+        <picture>
+          <source
+            srcset="/eco-byte-io/assets/dashboard-img4-desk-1589ec47.png "
+            media="(min-width: 1440px)"
+            width="628"
+            height="390"
+          />
+          <source
+            srcset="/eco-byte-io/assets/dashboard-img4-mob-aeaed0c0.png "
+            width="311"
+            height="193"
+          />
+          <img
+            class="dashboard-img"
+            src="/eco-byte-io/assets/dashboard-img4-mob-aeaed0c0.png"
+            alt="Dashboard"
+            width="311"
+            height="193"
+            loading="lazy"
+          />
+        </picture>
+        <div class="dashboard-text-wrapper">
+          <p class="dashboard-item-text">Forecast for next 12 months</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section studies-section" id="studies">
+  <div class="container studies-container">
+    <h2 class="section-title studies-title">Case Studies</h2>
+    <p class="section-subtitle studies-subtitle">Impact you can measure</p>
+    <ul class="studies-list">
+      <li class="studies-list-item">
+        <picture>
+          <source
+            srcset="/eco-byte-io/assets/studies-img1-desk-9474d825.png "
+            media="(min-width: 1440px)"
+            width="302"
+            height="295"
+          />
+          <source
+            srcset="/eco-byte-io/assets/studies-img1-mob-e221b995.png "
+            width="148"
+            height="145"
+          />
+          <img
+            class="studies-img"
+            src="/eco-byte-io/assets/studies-img1-mob-e221b995.png"
+            alt="Avatar"
+            width="148"
+            height="145"
+            loading="lazy"
+          />
+        </picture>
+        <div class="studies-text-wrapper">
+          <p class="studies-item-title">RetailCo</p>
+          <p class="studies-item-country">(Netherlands)</p>
+          <p class="studies-item-text">
+            Reduced logistics footprint by 18% after optimizing fleet routes.
+          </p>
+        </div>
+      </li>
+      <li class="studies-list-item">
+        <picture>
+          <source
+            srcset="/eco-byte-io/assets/studies-img2-desk-1eaa0fee.png "
+            media="(min-width: 1440px)"
+            width="302"
+            height="295"
+          />
+          <source
+            srcset="/eco-byte-io/assets/studies-img2-mob-639df0db.png "
+            width="148"
+            height="145"
+          />
+          <img
+            class="studies-img"
+            src="/eco-byte-io/assets/studies-img2-mob-639df0db.png"
+            alt="Avatar"
+            width="148"
+            height="145"
+            loading="lazy"
+          />
+        </picture>
+        <div class="studies-text-wrapper">
+          <p class="studies-item-title">TechHub</p>
+          <p class="studies-item-country">(Germany)</p>
+          <p class="studies-item-text">
+            Achieved CSRD-compliant reporting in under 4 weeks.
+          </p>
+        </div>
+      </li>
+      <li class="studies-list-item">
+        <picture>
+          <source
+            srcset="/eco-byte-io/assets/studies-img3-desk-5c08aecf.png "
+            media="(min-width: 1440px)"
+            width="302"
+            height="295"
+          />
+          <source
+            srcset="/eco-byte-io/assets/studies-img3-mob-c5308a59.png "
+            width="148"
+            height="145"
+          />
+          <img
+            class="studies-img"
+            src="/eco-byte-io/assets/studies-img3-mob-c5308a59.png"
+            alt="Avatar"
+            width="148"
+            height="145"
+            loading="lazy"
+          />
+        </picture>
+        <div class="studies-text-wrapper">
+          <p class="studies-item-title">EduCampus</p>
+          <p class="studies-item-country">(Spain)</p>
+          <p class="studies-item-text">
+            Cut electricity emissions by 12% through scenario planning.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section pricing-section" id="pricing">
+  <div class="pricing-top-wrapper">
+    <div class="container pricing-container">
+      <h2 class="section-title pricing-title">Plans & Pricing</h2>
+      <p class="section-subtitle pricing-subtitle">
+        Scale your sustainability effort
+      </p>
+    </div>
+  </div>
+  <div class="pricing-bottom-wrapper">
+    <div class="container pricing-container">
+      <ul class="pricing-list">
+        <li class="pricing-list-item">
+          <div class="pricing-item-top-wrapper">
+            <h3 class="pricing-item-title">Starter</h3>
+            <p class="pricing-item-text">up to 20 employees</p>
+          </div>
+          <div class="pricing-item-bottom-wrapper">
+            <p class="pricing-item-price">€79/month</p>
+          </div>
+        </li>
+        <li class="pricing-list-item">
+          <div class="pricing-item-top-wrapper">
+            <h3 class="pricing-item-title">Growth</h3>
+            <p class="pricing-item-text">up to 200 employees</p>
+          </div>
+          <div class="pricing-item-bottom-wrapper">
+            <p class="pricing-item-price">€249/month</p>
+          </div>
+        </li>
+        <li class="pricing-list-item">
+          <div class="pricing-item-top-wrapper">
+            <h3 class="pricing-item-title">Enterprise</h3>
+          </div>
+          <div class="pricing-item-bottom-wrapper">
+            <p class="pricing-item-text">
+              Custom — includes dedicated analyst support
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section faq-section" id="faq">
+  <div class="container faq-container">
+    <h2 class="section-title faq-title">FAQ</h2>
+    <p class="section-subtitle faq-subtitle">Answers to common questions</p>
+    <ul class="faq-list">
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text"
+            >Do we need sustainability experts in-house?</span
+          >
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="14" height="14">
+              <use href="/eco-byte-io/assets/sprite-3c7e3546.svg#icon-down-arrow"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          No, EcoByteIO is built to be used by non-experts with automated
+          guides.
+        </p>
+      </li>
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text">Is the platform EU-compliant?</span>
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="14" height="14">
+              <use href="/eco-byte-io/assets/sprite-3c7e3546.svg#icon-down-arrow"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          Yes, we align with EU taxonomy, CSRD, and GHG Protocol.
+        </p>
+      </li>
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text">How do you handle data security?</span>
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="14" height="14">
+              <use href="/eco-byte-io/assets/sprite-3c7e3546.svg#icon-down-arrow"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          Encrypted storage, GDPR compliance, and EU-based servers.
+        </p>
+      </li>
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text"
+            >Can we integrate with existing tools?</span
+          >
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="14" height="14">
+              <use href="/eco-byte-io/assets/sprite-3c7e3546.svg#icon-down-arrow"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          Absolutely — we support APIs and connectors for ERP, CRM, and
+          accounting systems.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section contact-section" id="contact">
+  <div class="container contact-container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-content-wrapper">
+      <picture>
+        <source
+          srcset="/eco-byte-io/assets/contact-bg-desk-e5419c95.png "
+          media="(min-width: 1440px)"
+          width="628"
+          height="456"
+        />
+        <source
+          srcset="/eco-byte-io/assets/contact-bg-mob-5dbb5eb0.png "
+          width="311"
+          height="226"
+        />
+        <img
+          class="contact-img"
+          src="/eco-byte-io/assets/contact-bg-mob-5dbb5eb0.png"
+          alt="Field"
+          width="311"
+          height="226"
+          loading="lazy"
+        />
+      </picture>
+      <div class="contact-text-wrapper">
+        <div class="contact-email-wrapper">
+          <svg class="contact-email-icon" width="25" height="25">
+            <use href="/eco-byte-io/assets/sprite-3c7e3546.svg#icon-email"></use>
+          </svg>
+          <div class="contact-email-text-wrapper">
+            <p class="contact-email-text">Email:&nbsp;</p>
+            <a href="mailto:hello@ecobyteio.pro" class="contact-email-link"
+              >hello@ecobyteio.pro</a
+            >
+          </div>
+        </div>
+        <div class="contact-company-text-wrapper">
+          <p class="contact-company-text">
+            Company:
+            <span class="contact-company-text-span"
+              >EcoByteIO LLC, Friedrichstr. 120, Berlin, Germany</span
+            >
+          </p>
+        </div>
+        <p class="contact-text">
+          Interested in a demo?<br />
+          Request a free trial link — we’ll set you up within 24h.
+        </p>
+        <a href="#home" class="contact-get-btn">Request</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="container footer-container">
+    <div class="footer-top-wrapper">
+      <a class="footer-logo-link" href="./">
+        <picture>
+          <source
+            srcset="data:image/png;base64,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 "
+            media="(min-width: 1440px)"
+            width="98"
+            height="59"
+          />
+          <source
+            srcset="data:image/png;base64,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 "
+            width="70"
+            height="50"
+          />
+          <img
+            class="header-logo-img"
+            src="data:image/png;base64,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"
+            alt="Logo"
+            width="70"
+            height="50"
+          />
+        </picture>
+      </a>
+    </div>
+    <div class="footer-bottom-wrapper">
+      <div class="footer-nav-wrapper">
+        <nav class="footer-nav">
+          <ul class="footer-privacy-list">
+            <li class="footer-privacy-item">
+              <a class="footer-privacy-link" href="./privacy-policy.html"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="footer-privacy-item">
+              <a class="footer-privacy-link" href="./terms-and-conditions.html"
+                >Terms of Service</a
+              >
+            </li>
+            <li class="footer-privacy-item">
+              <a class="footer-privacy-link" href="./cookies-policy.html"
+                >Cookies Policy</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="footer-contact-wrapper">
+          <p class="footer-contact-text">Contact</p>
+          <div class="footer-email-wrapper">
+            <svg class="email-icon" width="20" height="20">
+              <use href="/eco-byte-io/assets/sprite-3c7e3546.svg#icon-mail"></use>
+            </svg>
+            <div class="footer-email-text-wrapper">
+              <p class="footer-email-text">Email:&nbsp;</p>
+              <a href="mailto:hello@ecobyteio.pro" class="footer-email-link"
+                >hello@ecobyteio.pro</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="footer-bottom-text">
+        © 2025 EcoByteIO LLC. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <h2 class="cookies-banner-title">Cookies Policy</h2>
+  <p class="cookie-banner-text">
+    We use cookies to improve your experience on our website.<br />
+    By browsing this website, you agree to our use of cookies.
+  </p>
+  <div class="cookie-banner-buttons">
+    <button class="cookie-btn" id="cookie-accept">ACCEPT COOKIES</button>
+    <button class="cookie-btn" id="cookie-decline">DECLINE COOKIES</button>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-back-arrow" viewBox="0 0 16 32">
+      <path d="m12.731 23.227-1.415 1.413-7.705-7.703a1.32 1.32 0 0 1-.392-.942 1.334 1.334 0 0 1 .392-.942l7.705-7.707 1.413 1.413-7.232 7.233 7.233 7.233z"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path fill="none" stroke="#f1f5f9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M6.667 6.667 16 16m0 0 9.333-9.333M16 16l-9.333 9.333M16 16l9.333 9.333" style="stroke:var(--color1, #f1f5f9)"/>
+    </symbol>
+    <symbol id="icon-down-arrow" viewBox="0 0 32 32">
+      <path fill="#4a6a10" d="M8.533 9.778 16 17.245l7.467-7.467 2.489 2.489L16 22.223l-9.956-9.956 2.489-2.489z" style="fill:var(--color2, #4a6a10)"/>
+    </symbol>
+    <symbol id="icon-email" viewBox="0 0 32 32">
+      <path fill="#4a6a10" d="M28 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zm0 6-12 6-12-6V8l12 6 12-6v4z" style="fill:var(--color2, #4a6a10)"/>
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 32 32">
+      <path fill="#4a6a10" d="M29.474 22.655c.649 0 1.273.18 1.742.502s.749.761.78 1.226c.031.466-.188.922-.613 1.275s-1.021.574-1.667.619l-.242.008H2.527c-.649 0-1.273-.18-1.742-.502s-.749-.761-.78-1.226c-.031-.466.188-.922.613-1.275s1.021-.574 1.667-.619l.243-.008h26.947zm0-8.47c.67 0 1.313.191 1.786.532s.74.802.74 1.284-.266.943-.74 1.284c-.474.34-1.116.532-1.786.532H2.527c-.67 0-1.313-.191-1.786-.532s-.74-.802-.74-1.284.266-.943.74-1.284c.474-.34 1.116-.532 1.786-.532h26.947zm0-8.471c.67 0 1.313.191 1.786.532s.74.802.74 1.284-.266.943-.74 1.284c-.474.34-1.116.532-1.786.532H2.527c-.67 0-1.313-.191-1.786-.532s-.74-.802-.74-1.284c0-.481.266-.943.74-1.284s1.116-.532 1.786-.532h26.947z" style="fill:var(--color2, #4a6a10)"/>
+    </symbol>
+    <symbol id="icon-mail" viewBox="0 0 20 21" fill="none">
+      <path d="M17.5 4.25H2.5C2.17 4.25 1.85 4.38 1.62 4.62C1.38 4.85 1.25 5.17 1.25 5.5V15.5C1.25 15.83 1.38 16.15 1.62 16.38C1.85 16.62 2.17 16.75 2.5 16.75H17.5C17.83 16.75 18.15 16.62 18.38 16.38C18.62 16.15 18.75 15.83 18.75 15.5V5.5C18.75 5.17 18.62 4.85 18.38 4.62C18.15 4.38 17.83 4.25 17.5 4.25ZM17.5 8L10 11.75L2.5 8V5.5L10 9.25L17.5 5.5V8Z" fill="url(#paint0_linear_mail)"/>
+      <defs>
+        <linearGradient id="paint0_linear_mail" x1="10" y1="4.25" x2="10" y2="16.75" gradientUnits="userSpaceOnUse">
+          <stop stop-color="white"/>
+          <stop offset="1" stop-color="#4A6A10"/>
+        </linearGradient>
+      </defs>
+    </symbol>
+  </defs>
+</svg>
