@@ -1,5 +1,5 @@
 .policy-section {
-  background: linear-gradient(180deg, #000 0%, #0b132b 100%);
+  background: #f5f7fa;
   padding-top: 88px;
   padding-bottom: 60px;
 
@@ -13,10 +13,7 @@
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 32px;
-  background: linear-gradient(180deg, #0ecbaf 0%, rgba(14, 203, 175, 0.1) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #4a6a10;
   margin-bottom: 24px;
 
   @include media(desktop) {
@@ -29,10 +26,7 @@
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 24px;
-  background: linear-gradient(180deg, #0ecbaf 0%, rgba(14, 203, 175, 0.1) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #4a6a10;
   margin-bottom: 24px;
 
   @include media(desktop) {
@@ -46,7 +40,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.4;
-  color: #f1f5f9;
+  color: #2d3436;
 
   &:not(:last-child) {
     margin-bottom: 24px;
@@ -67,7 +61,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.4;
-  color: #f1f5f9;
+  color: #2d3436;
   margin-bottom: 8px;
 
   &:last-child {

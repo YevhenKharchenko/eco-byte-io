@@ -1,5 +1,5 @@
 .privacy-header {
-  background: linear-gradient(180deg, #0b132b 0%, #000 100%);
+  background: #f5f7fa;
   padding-top: 8px;
   padding-bottom: 8px;
   position: fixed;
@@ -21,7 +21,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.4;
-  color: #f1f5f9;
+  color: #2d3436;
 
   @include media(desktop) {
     font-size: 24px;
