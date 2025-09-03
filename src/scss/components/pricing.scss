@@ -1,0 +1,146 @@
+.pricing-section {
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
+}
+
+.pricing-top-wrapper {
+  margin-bottom: 28px;
+
+  @include media(desktop) {
+    margin-bottom: 60px;
+  }
+}
+
+.pricing-title {
+  @include media(desktop) {
+  }
+}
+
+.pricing-subtitle {
+  margin-bottom: 0;
+
+  @include media(desktop) {
+  }
+}
+
+.pricing-bottom-wrapper {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @include media(desktop) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(../../img/pricing/pricing-bg-mob.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    mix-blend-mode: exclusion;
+    z-index: 0;
+
+    @include media(desktop) {
+      background-image: url(../../img/pricing/pricing-bg-desk.png);
+    }
+  }
+}
+
+.pricing-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.pricing-list-item {
+  border: 1px solid #4a6a10;
+  width: 100%;
+  max-width: 202px;
+  min-height: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  &:nth-child(3) {
+    .pricing-item-top-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @include media(desktop) {
+    max-width: 302px;
+    min-height: 309px;
+    gap: 80px;
+  }
+}
+
+.pricing-item-top-wrapper {
+  border-bottom: 1px solid #4a6a10;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 16px;
+  width: 100%;
+  min-height: 99px;
+
+  @include media(desktop) {
+    gap: 40px;
+    min-height: 149px;
+    padding-bottom: 20px;
+  }
+}
+
+.pricing-item-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  color: #4a6a10;
+
+  @include media(desktop) {
+    font-size: 48px;
+  }
+}
+
+.pricing-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #2d3436;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.pricing-item-bottom-wrapper {
+}
+
+.pricing-item-price {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  color: #4a6a10;
+
+  @include media(desktop) {
+    font-size: 48px;
+  }
+}
